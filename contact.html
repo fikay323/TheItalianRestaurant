@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="icon" href="Image/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body style="background-color: aliceblue;">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c36b48a40a.js" crossorigin="anonymous"></script>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg p-2 position-sticky">
+        <div class="container-fluid">
+          <a class="navbar-brand text-md-center text-light dancing" href="#"><h1 class="top" style="font-weight: 900; font-size: 40px;">The Italian Restaurant</h1></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="bobo navbar-nav me-auto mb-2 mb-lg-0 text-md-end" style="margin-left: 40vw;">
+              <li class="nav-item">
+                <a class="nav-link active text text-light text-sm-center text-md-center text-lg-end px-md-3 fw-bolder" aria-current="page" href="index.html">Home</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link text text-light text-sm-center text-md-center text-lg-end px-md-3 fw-bolder " href="hours.html">Store Hours</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text text-light text-sm-center text-md-center text-lg-end px-md-3 fw-bolder " href="order.html">Order Online</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- NAVBAR ENDING -->
+    <main class="main2">
+        <h1 class="dancing">Contact Us</h1>
+        <form action="submit.html" target="_blank" method="get">
+            <fieldset>
+                <legend>Send Us A Message</legend>
+                <br>
+                <label for="name">Name:</label>
+                <input required type="text" placeholder="Your Name">
+                <br><br>
+                <label for="Email">Email:</label>
+                <input required type="email" placeholder="Your Email">
+                <br><br>
+                <label for="message">Your Message:</label>
+                <br>
+                <textarea required style="border-radius: 20px; padding:20px;" name="comment" id="comment" placeholder="Type your message here"></textarea>
+                <br>
+            </fieldset>
+            <br>
+            <div class="wrap">
+                <button style="background-color: green;" type="submit">Send</button>
+                <button style="background-color: red;" type="reset">Reset</button>
+            </div>
+        </form>
+    </main>
+    
+</body>
+</html>

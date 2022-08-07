@@ -1,0 +1,234 @@
+body {
+    overflow-x: hidden;
+}
+.dancing {
+    font-family: 'Dancing Script', cursive;
+}
+.navbar {
+    position:fixed !important;
+    width: 100% !important;
+    top: 0 !important;
+    z-index: 100;
+    background-color: red;
+    z-index: 10;
+}
+.background {
+    height: 100vh !important;
+    background: url(/Image/stake2.webp) !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    padding: 7%;
+    opacity: 1;
+}
+.hero-section {
+    width: 47%;
+    height: fit-content;
+    float: left;
+}
+.hero-section h1 {
+    padding-top: 15%;
+    font-family: 'Dancing Script', cursive;
+}
+.hero-section p {
+    font-size: 18px;
+    padding-top: 5%;
+}
+.animation {
+    height: 90%;
+    width: 40%;
+    margin-left: 6%;
+    margin-top: 5%;
+    float: right;
+    background-image: url(/Image/2nd.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 40s;
+    animation-name: roll;
+}
+@keyframes roll {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.menu h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 50px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: fit-content;
+    margin: auto;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+.mycard{
+    width: 21rem;
+    background-color: white;
+    border-radius: 20px;
+}
+.mycard .img  {
+    width: 21rem;
+    height: 11rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.mycard .mycard-body {
+    background-color: black;
+    /* width: 21rem; */
+    padding: 20px;
+    color: white;
+    border-radius: 0 0 20px 20px;
+}
+.mycard .img img {
+    height: 100px;
+}
+.footer div {
+    display: inline-block;
+    background-color: red; 
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.footer {
+    margin: 10px auto;
+    width: fit-content;
+}
+.footer div:nth-of-type(1) {
+    margin: 20px;
+}
+.footer div:nth-of-type(2) {
+    margin: 20px;
+}
+.footer div a {
+    display:flex;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+}
+footer {
+    background-color: black;
+    padding: 10px;
+}
+i {
+    color: white;
+    font-size: 25px;
+}
+.a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    color: transparent;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 23;
+}
+/* Shop Hours */
+.main {
+    padding: 50px 50px;
+    background-color: aliceblue;
+}
+.main .hours p {
+    display: inline-block;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.main h1 {
+    margin: auto;
+    width: fit-content;
+}
+.hours {
+    width: fit-content;
+    border: thick solid red;
+    padding: 0 50px;
+    margin: 40px auto;
+    border-radius: 30px;
+}
+/* Contact us */
+.main2 {
+    background-color: aliceblue;
+    padding: 30px 50px;
+}
+.main2 h1 {
+    margin: auto;
+    width: fit-content;
+}
+.main2 form {
+    width: fit-content;
+    border: thick solid red;
+    padding: 3%;
+    border-radius:30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+}
+.main2 form legend {
+    font-weight: bolder;
+    text-align: center;
+}
+.main2 form fieldset input {
+    width: 83%;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+    box-shadow: inset 5px 5px 5px rgb(245, 241, 241),
+                inset -5px -5px 5px rgb(228, 225, 225);
+}
+.main2 form fieldset label {
+    font-weight: bolder;
+}
+.main2 form button {
+    border: none;
+    font-size: 18px;
+    margin: 10px;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+.wrap {
+    width: fit-content;
+    margin: auto;
+}
+/* Submitted  */
+.thanks {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 100px;
+}
+/* Order online */
+.confirm {
+    width: fit-content;
+    font-size: 18px;
+    font-weight: bolder;
+    color: black;
+    margin: auto;
+}
+.return {
+    display: flex;
+    width: fit-content;
+    background-color: red;
+    margin-left: 40px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+}
+.return span {
+    text-decoration: none;
+    color: white;
+}
